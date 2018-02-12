@@ -5,12 +5,10 @@
 <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
 
 <style>
-
 .robot {
   position: relative;
   left: 200px;
   }
-
 .beep{
   width: 5px;
   height: 0px;
@@ -35,13 +33,11 @@
     background: -moz-radial-gradient(circle, red 15%, transparent 40%), #cc5;
   }
 }
-
 .laser {
   animation: blink .5s infinite;
   -webkit-animation: blink .5s infinite;
   -moz-animation: blink .5s infinite;
   }
-
 .brain {
   background: radial-gradient(circle, white 15%, transparent 40%), #cc5;
   background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5; 
@@ -53,7 +49,6 @@
   border-bottom: 40px solid #666;
   position: relative;
   left: 70px;
-
 }
 @keyframes blink {
   50% {
@@ -92,25 +87,21 @@
     top: -320px;
     z-index: -1;
 }
-
 @keyframes dance {
   from {
     left: 800px;
   }
 }
-
 @-webkit-keyframes dance {
  from {
     left: 800px;
   }
 }
-
 @-moz-keyframes dance {
  from {
     left: 800px;
   }
 }
-
 img {
   animation: dance 4s infinite;
   -webkit-animation: dance 4s infinite;
@@ -119,7 +110,6 @@ img {
   top: 200px;
   left: 400px;
 }
-
 .right {
     font-family: 'Poller One', verdana, arial, sans-serif;
     font-weight: bold;
@@ -133,7 +123,6 @@ img {
     top: -620px;
     left: 190px;
 }
-
 img {
   position: absolute;
   top: 200px;
@@ -178,13 +167,11 @@ $(".color").click(function() {
  $("body").css("background", randomRGBA);
  
   // Display the RGBA value in an alert window
-  /*alert(randomRGBA);*/
+  //alert(randomRGBA);
 });
-
 $(".moves").click(function() {
       $("img").toggle();
   });
-
 </script>
 
 </body>
