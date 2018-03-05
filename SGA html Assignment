@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>Ernest Ojeh</title>
+    <Style>
+    body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10% 15%;          
+    /* top:50%;
+    left:50%;
+    max-width: 60%;
+    transform:translateX(-50%) translateY(-50%) */
+    /* position: absolute; */
+}
+/* p{
+    color: grey;
+} */
+
+       
+/* .All {
+    display: inline-table; 
+
+} */
+
+
+
+
+.heading {
+    font-family: EO-Calibre, avenir, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    color: lavender grey;
+    line-height: 50px;
+    position: 
+    }
+    
+    a {
+        text-decoration-line: none;
+        color:lightgray;
+        font-size: 20px;
+        font-weight: 50px;
+        line-height: 35px;
+        }
+       
+ul {
+    list-style-type: none; 
+    display: inline-table;
+    
+}
+
+
+/* #footer-links-A  {
+margin-top:70px;
+
+
+
+
+#footer-links a{
+margin: 0 20px 0 0; */
+</style>
+</head>
+
+
+
+<body>
+    <div class="heading">
+        <p><b> I'm Ernest<span style="color:lightgrey">, a UX <br>Designer working at <br>Booking.com </span></b></p>
+    </div> 
+         
+
+    
+    <div class="All">
+        <ul>
+        
+            <li><a href="https://facebook.com/odesanyas">About</a> </li>
+            <li><a href="#">Writing</a></li>
+            <li><a href="https://instagram.com/kbodesanya">Photos</a></li>
+            <li><a href="linkedin.com/odbusayo">Contact</a> </li>
+        </ul>
+     
+        <ul> 
+            <li><a href="https://twitter.com/kbodesanya">Twitter</a></li>
+            <li><a href="https://dribbble.com/bamiistobi">Dribble</a></li>
+            <li><a href="https://instagram.com/kbodesanya">Instagram</a></li>
+            <li><a href="spotify.com">Spotify</a></li>
+            
+        </ul> 
+ 
+        <ul>
+            <li> <a href="konga.com">KongaPay</a></li>
+            <li> <a href="#">NewThird</a></li>
+            <li> <a href="insidify.com">Insidify</a></li>
+            <li><a href="https://github.com/bamiistobi/SGA0.2/blob/master/Project4.html">Appscreens</a></li>
+        </ul> 
+       
+        
+
+        <ul> 
+            <li><a href="udacity.com">Learning 3D</a></li>
+        </ul>        
+   
+    </div>
+
+</body>
+</html>
