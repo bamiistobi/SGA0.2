@@ -1,104 +1,70 @@
+
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Ernest Ojeh</title>
-    <Style>
-    body{
-    background-color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10% 15%;          
-    /* top:50%;
-    left:50%;
-    max-width: 60%;
-    transform:translateX(-50%) translateY(-50%) */
-    /* position: absolute; */
-}
-/* p{
-    color: grey;
-} */
-
-       
-/* .All {
-    display: inline-table; 
-
-} */
-
-
-
-
-.heading {
-    font-family: EO-Calibre, avenir, Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 45px;
-    color: lavender grey;
-    line-height: 50px;
-    position: 
-    }
-    
-    a {
-        text-decoration-line: none;
-        color:lightgray;
-        font-size: 20px;
-        font-weight: 50px;
-        line-height: 35px;
-        }
-       
-ul {
-    list-style-type: none; 
-    display: inline-table;
-    
-}
-
-
-/* #footer-links-A  {
-margin-top:70px;
-
-
-
-
-#footer-links a{
-margin: 0 20px 0 0; */
-</style>
+    <link href="css/about.css" rel="stylesheet">
 </head>
-
-
-
 <body>
-    <div class="heading">
-        <p><b> I'm Ernest<span style="color:lightgrey">, a UX <br>Designer working at <br>Booking.com </span></b></p>
-    </div> 
-         
-
-    
-    <div class="All">
-        <ul>
+    <h3>Ernest Ojeh</h3>
+    <ul class="menu">
         
-            <li><a href="https://facebook.com/odesanyas">About</a> </li>
+        <li><a href="https://facebook.com/odesanyas">About</a> </li>
             <li><a href="#">Writing</a></li>
             <li><a href="https://instagram.com/kbodesanya">Photos</a></li>
-            <li><a href="linkedin.com/odbusayo">Contact</a> </li>
-        </ul>
-     
-        <ul> 
-            <li><a href="https://twitter.com/kbodesanya">Twitter</a></li>
-            <li><a href="https://dribbble.com/bamiistobi">Dribble</a></li>
-            <li><a href="https://instagram.com/kbodesanya">Instagram</a></li>
-            <li><a href="spotify.com">Spotify</a></li>
-            
-        </ul> 
- 
-        <ul>
-            <li> <a href="konga.com">KongaPay</a></li>
-            <li> <a href="#">NewThird</a></li>
-            <li> <a href="insidify.com">Insidify</a></li>
-            <li><a href="https://github.com/bamiistobi/SGA0.2/blob/master/Project4.html">Appscreens</a></li>
-        </ul> 
-       
+            <li><a href="linkedin.com/odbusayo">Contact</a>      </li>
+    </ul>
+    
+    <h1>About</h1>
+    
+<div id="experience">
+    
+    <h4>EXPERIENCE</h4>  
+    <ul class="row1">
         
+        <li><b><a href="https://booking.com">Booking.com</a></b> <span>2017 - Present</span></li>
+        <li><b><a href="https://konga.com">Konga.com</a></b><span>2015 - 2017</span></li>
+        <li><b><a href="https://andela.com">Andela</a></b><span>2014 - 2015</span></li>
+        <li><b><a href="https://prowork.com">DigitalCraft/Prowork</a></b><span>2011 - 2014</span></li>
+        <li><b><a href="https://freelance.com">Freelance</a></b><span>2008 - 2011</span> </li>
+    </ul>
+</div>
+  
+  
+  
+    <p>Currently working at Booking.com in Amsterdam.</p>
 
-        <ul> 
-            <li><a href="udacity.com">Learning 3D</a></li>
-        </ul>        
-   
-    </div>
+<p>Most of my work revolves around rethinking digital experiences. My<br> includes; User Interface Design, Web Development,<br> Prototyping, and User Research.</p>
+
+<p>A few years ago, I worked at a design agency where I had the<br> privilege of building awesome products and working with top clients<br> from around the world.</p>
+
+<p>I've also failed at launching a successful startup.</p>
+
+<p>I'm currently unavailable for work, but if you just want to chat, you<br> can <a href="linkedin.com/odbusayo">contact me.</a></p>
+
+<div id="links">
+    <ul>
+        
+        <li><b><a href="https://facebook.com/odesanyas">About</a> </li>
+        <li><a href="#">Writing</a></li>
+        <li><a href="https://instagram.com/kbodesanya">Photos</a></li>
+        <li><a href="linkedin.com/odbusayo">Contact</a></b> </li>
+    </ul>
+</div>   
+    <h3>SPEAKING</h3>
+    <h2>Usable UX Meetup — November 2016</h2>
+    <p>I gave a talk on the process of building payment solutions for Nigeria - <a href="http://techcabal.com/2016/11/22/usable-meetup-at-cchub-on-thursday">http://techcabal.com/2016/11/22/usable-meetup-at-cchub-on-thursday</a></p>
+    <h2>KongaPay Developer Conference - July 2016</h2>
+    <p>My team organized a conference for developers using our platform. I gave a talk on the process of building the KongaPay product, and how to use the web payment interface and SDKs - <a href="https://attending.io/events/k-con16">https://attending.io/events/k-con16</a></p>
+    <h2>UX Lagos Meetup — March 2016</h2>
+    <p>I was part of a panel that gave a talk on the state of design in Nigeria, user experience, design process, problem-solving and introduction for new designers. - <a href="http://attending.io/events/uxlagos-meetup-march-2016">http://attending.io/events/uxlagos-meetup-march-2016</a></p>
+
+    <h3>THIS WEBSITE</h3>
+    <p>This site was built with <a href="linkedin.com/odbusayo">Jekyll</a> + <a href="linkedin.com/odbusayo">Skeleton</a>, hosted on <a href="linkedin.com/odbusayo">Github Pages</a> and served by <a href="linkedin.com/odbusayo">Netlify</a>.</p>    
+
+
+
+
 
 </body>
 </html>
